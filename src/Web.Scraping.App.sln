@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Scraping", "Web.Scraping.App\Web.Scraping.csproj", "{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web.Scraping.Client", "Web.Scraping.Client\Web.Scraping.Client.csproj", "{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F5611ABD-E77B-4EC1-B0D4-9FA0DBDE438A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9192B04-4713-4DF4-A45C-6AF5C9585947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Scraping.Tests", "..\tests\Web.Scraping.Tests\Web.Scraping.Tests.csproj", "{B121F2F2-7BAD-41EB-8B81-4FA36331C68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Scraping.Client.Tests", "..\tests\Web.Scraping.Client.Tests\Web.Scraping.Client.Tests.csproj", "{3D2125CE-35F4-419C-A620-6437F8958CA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B121F2F2-7BAD-41EB-8B81-4FA36331C68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B121F2F2-7BAD-41EB-8B81-4FA36331C68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B121F2F2-7BAD-41EB-8B81-4FA36331C68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B121F2F2-7BAD-41EB-8B81-4FA36331C68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D2125CE-35F4-419C-A620-6437F8958CA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D2125CE-35F4-419C-A620-6437F8958CA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D2125CE-35F4-419C-A620-6437F8958CA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D2125CE-35F4-419C-A620-6437F8958CA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19F54CF6-EAEE-4AB8-B0A8-179FCE01DDEF} = {F5611ABD-E77B-4EC1-B0D4-9FA0DBDE438A}
+		{31F4E7A7-4601-48A3-BEFB-852AC60DFBF2} = {F5611ABD-E77B-4EC1-B0D4-9FA0DBDE438A}
+		{B121F2F2-7BAD-41EB-8B81-4FA36331C68D} = {A9192B04-4713-4DF4-A45C-6AF5C9585947}
+		{3D2125CE-35F4-419C-A620-6437F8958CA2} = {A9192B04-4713-4DF4-A45C-6AF5C9585947}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4F54004-9182-4819-B838-65982CDA5AD7}
+	EndGlobalSection
+EndGlobal
